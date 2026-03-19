@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src.1/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link r el="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/axios@1.13.2/dist/axios.min.js"></script>
+    <title>My weather application.</title>
+</head>
+
+<body>
+    <div class="weather">
+        <header>
+            <form id="search-form">
+                <input type="search" placeholder="Enter a city.." required class="holder" />
+                <input type="submit" value="Search" class="button" />
+            </form>
+        </header>
+        <main>
+            <div class="current-weather">
+                <div class="city">
+                    <h1>Paris</h1>
+                    <p>
+                        <span class="weak">Saturday 15:32,</span> moderate rain <br />
+                        Humidity: <span class="numbers"><strong>87%</strong></span>, Wind: <span
+                            class="numbers"><strong>7.2km/h</strong></span>
+                    </p>
+                </div>
+                <div class="current">
+                    <span class="sunny">☀️</span><span class="number" id="temp"><strong>24</strong></span><span
+                        class="degree"><strong>°C</strong></span>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>
+                This project was coded by
+                <a href="#" target="_blank">Zitha Makasi</a> and is
+                <a href="#" target="_blank"> on GitHub</a> and
+                <a href="#" target="_blank">hosted on Netlify</a>
+            </p>
+        </footer>
+    </div>
+    <script src="src.2/index.js"></script>
+</body>
+
+</html>
